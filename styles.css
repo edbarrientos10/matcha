@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:bold');
+
+body {
+    background-color: #fffbf7;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: #025157;
+    color: #ffffff
+}
