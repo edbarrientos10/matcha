@@ -20,8 +20,22 @@ img {
     border-style: none;
 }
 
+.search_box {
+    width: 500px;
+    height: 50px;
+}
+
 button {
     cursor: pointer;
     background-color: #025157;
     color: #ffffff
+}
+
+input {
+    width: 250px;
+    padding: 6px;
+    padding-right: 50px;
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 100%;
 }
