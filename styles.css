@@ -9,7 +9,11 @@
 
 body {
     background-color: #fffbf7;
-    padding: 30px;
+    /* padding: 30px; */
+}
+
+a {
+    text-decoration: none;
 }
 
 main {
@@ -40,7 +44,8 @@ img {
 }
 
 
-input, button {
+input,
+button {
     height: 100%;
     border-radius: 8px;
     overflow: visible;
@@ -48,6 +53,9 @@ input, button {
 
 button {
     cursor: pointer;
+}
+
+.free_trial_button {
     background-color: #025157;
     color: #ffffff;
     border: none;
@@ -63,4 +71,47 @@ input {
     border-radius: 8px;
     border: 1px solid black;
     height: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+.header {
+    border: 1px black solid;
+    height: 400px;
+    width: 100%;
+}
+
+.header>* {
+    display: inline-block;
+    margin: 0px;
+}
+
+.left_corner_logo {
+    border: 1px black solid;
+    height: 200px;
+    width: 15%;
+}
+
+.nav_bar {
+    border: 1px black solid;
+    list-style: none;
+    height: 200px;
+    width: 50%;
+}
+
+.login_signup_container {
+    border: 1px black solid;
+    height: 200px;
+    width: 15%;
+}
+
+
+li {
+    border: 1px black solid;
+}
+
+ul {
+    border: 1px black solid;
 }
